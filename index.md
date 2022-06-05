@@ -26,6 +26,9 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
@@ -35,3 +38,22 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+### Latex 
+Github.io supports latex 
+$x^2+y^2$
+$$x^2+y^2$$
+but can't use
+```latex
+\begin{equation}
+x^2+y^2
+\end{equation}
+```
+\(\begin{equation}
+x^2+y^2
+\end{equation}\)
+
+
+\[\begin{aligned}
+E = mc^2
+\end{aligned}\]
